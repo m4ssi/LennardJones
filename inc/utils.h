@@ -15,4 +15,10 @@ typedef struct
 			z;
 } float_3d;
 
+
+#define SQUARE(x) ((x)*(x))
+#define CUBE(x) ((x)*(x)*(x))
+
+double distance2 ( double_3d pi, double_3d pj);
+
 #endif
